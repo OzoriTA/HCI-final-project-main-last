@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/themify-icons-font/themify-icons/themify-icons.css">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://kit.fontawesome.com/9e15fcfef8.js" crossorigin="anonymous"></script>
+    <title>Báo điện tử</title>
+    <link rel="icon" href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196"" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+</style>
+
+<body>
+    <!-- phần 1 hearder -->
+    
+    <div id="main">
+        <div id="header">
+            <div id="top">
+
+                <div class="right">
+                <div class="image"><i class="fa-light fa-user"></i></i></div>
+                    <div>
+                        <ul class="navtop">
+                            <li><a href="https://www.facebook.com/"><i class=" face ti-facebook"></i></a></li>
+                            <li><a href="https://www.google.com/intl/vi/account/about/"><i
+                                        class=" gg ti-google"></i></a></li>
+                            <li><a
+                                    href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoidmkifQ%3D%3D%22%7D"><i
+                                        class=" sw ti-twitter-alt"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div id="left">
+                    <div class="wrap">
+                        <form action="" class="search" method="post">
+                            <input type="text" class="searchTerm" placeholder="Bạn muốn tìm gì?">
+                            <button type="submit" class="searchButton">
+                                Submit
+                            </button>
+                        </form>
+                        <div class="nav">
+                            <ul>
+                                <li><button class="like js-like" >Mục yêu thích của tôi</button></li>
+                                <li><a href=""><i class="h ti-bell"></i></a></li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <h1><b>BÁO ĐIỆN TỬ</b></h1>
+
+                </div>
+
+            </div>
+            <div id="bottom">
+                <ul class="navb">
+                    <li> <a href=""><i class="ti-menu-alt"></i></a>
+                        <ul class="subNav">
+                            <li><button><a href="#"><i class="ti-stats-up js-stats"></i> XU HƯỚNG</a></li></button>
+                            <li><button><a href="#"><i class="ti-bookmark-alt js-bookmark"></i>NỔI BẬT</a></li></button>
+                            <li><button><a href="#"><i class="ti-credit-card js-credit"></i>TÍCH XU</a></li></button>
+                            <li><button><a href="#"><i class="ti-youtube js-youtube"></i>VIDEO</a></li></button>
+                            <li><button><a href="#"><i class="ti-more js-more" ></i>TIỆN ÍCH</a></li></button>
+                        </ul>
+                    </li>
+
+                  
+                        <li> <a class="first" href="#total"> SHOWBIZ</a> 
+                            <!-- <ul class="subNav1">
+                                <li><a href=""> GIẢI TRÍ</a></li>
+                                <li><a href=""> THẾ GIỚI</a></li>
+                                <li><a href=""> VTV</a></li>
+                            </ul> -->
+                           
+
+                        </li>
+                        <li> <a href="#"> GENZ </a> </li>
+                        <li> <a href="#culture"> VĂN HÓA </a></li>
+                        <li> <a href="#culture"> TIN TỨC </a></li>
+                
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="modal">
+        <div class="modal-container">
+            <div class="modal-close">
+                <i class="fa-solid fa-circle-xmark"></i>
+            </div>
+
+            <div class="modal-header">
+                <i class="fa-solid fa-bag-shopping"></i>
+                Danh Sách Yêu Thích
+            </div>
+            <div class="modal-body">
+                <laber class="laber-modal">
+                    <i class="fa-brands fa-shopify"></i>
+                    Thời Trang Và Sắc Đẹp
+                </laber>
+                <input type="text" class="moder-input" placeholder="tìm kiếm">
+
+                <laber class="laber-modal">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    Thịnh Hành
+                </laber>
+                <input type="text" class="moder-input" placeholder="tìm kiếm">
+
+                <laber class="laber-modal">
+                    <i class="fa-solid fa-cubes"></i>
+                    mục khác
+                </laber>
+                <input type="text" class="moder-input" placeholder="tìm kiếm">
+            </div>
+        </div>
+    </div>
+
+        <div class="modal-stats">
+            <div class="container">
+                <div class="close">
+                    <i class="fa-regular fa-circle-xmark"></i>
+                </div>
+                <div class="header">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    XU HƯỚNG
+                </div>             
+            </div>
+        </div>
+        <div class="modal-bookmark">
+            <div class="container">
+                <div class="close close-bookmark">
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </div>
+                <div class="header">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    NỔI BẬT
+                </div>             
+            </div>
+        </div>
+        <div class="modal-credit">
+            <div class="container">
+                <div class="close close-credit">
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </div>
+                <div class="header">
+                    <i class="fa-solid fa-sack-dollar"></i>
+                    TÍCH XU
+                </div>             
+            </div>
+        </div>
+        <div class="modal-youtube">
+            <div class="container">
+                <div class="close close-youtube">
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </div>
+                <div class="header">
+                    <i class="fa-solid fa-camera-movie"></i>
+                    VIDEO
+                </div>             
+            </div>
+        </div>
+        <div class="modal-more">
+            <div class="container">
+                <div class="close close-more">
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </div>
+                <div class="header">
+                    <i class="fa-solid fa-download"></i>
+                    TIỆN ÍCH
+                </div>             
+            </div>
+        </div>
+
+    
+    <!-- kết thúc hearder -->
+
+
+     <div id="slider">
+
+        <div class="slide-wrapper">
+            <div class="slide">
+                <img src="assets/img/karik.jpg" alt="" height="500px" width="800px">
+            </div>
+            <div class="slide">
+                <img src="assets/img/do-nhat-ha.jpg" alt="" height="500px" width="800px">
+            </div>
+            <div class="slide">
+                <img src="assets/img/le-gio-to-hung-vuong.jpg" alt="" height="500px" width="800px">
+            </div>
+            <!-- <div class="slide">
+                <img src="assets/img/nghe-thuat-mua-roi-nuoc.jpg" alt="" height="400px" width="800px">
+            </div> -->
+           
+
+
+        </div>
+
+    </div> 
+
+      <div id="content">
+        <div id="genz">
+            <div id="main-content">
+                <div class="genz-news-big-img">
+
+                    <img src="assets/img/genz là gì.jpg" alt="">
+                    <div class="genz-news-content">
+
+                        <h2 class="genz-news-title">Thế hệ Genz là gì?</h2>
+                        <div class="genz-news-text-and-icon">
+
+                            <p class="genz-news-text">Gen Z hay Thế hệ Z là một thuật ngữ khá phổ biến,
+                                được nhiều
+                                người sử dụng trên cả mạng xã hội và trong đời sống, nhưng không phải ai
+                                cũng biết ý
+                                nghĩa của từ này. Cùng tìm hiểu bài viết dưới đây để biết gen Z là gì, thế
+                                hệ Z là
+                                gì?
+                            </p>
+
+                            <div class="genz-news-footer">
+                                <i class="ti-comments"></i>
+                                <i class="ti-share"></i>
+                                <h4 class="shares">0 Lượt chia sẻ</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="genz-news">
+
+
+
+                    <img src="assets/img/độc thân.jpg" alt="">
+                    <div class="genz-news-content">
+
+                        <h2 class="genz-news-title">Không phải ế mà... chờ người tử tế mới yêu!</h2>
+                        <div class="genz-news-text-and-icon">
+                            <p class="genz-news-text">Thực tế cho thấy không ít bạn trẻ thuộc thế hệ gen Z
+                                đang
+                                phải ưu tiên cho những mối quan tâm khác nhau hơn là suy nghĩ đến chuyện yêu
+                                đương</p>
+                        </div>
+                        <div class="genz-news-footer">
+                            <i class="ti-comments"></i>
+                            <i class="ti-share"></i>
+                            <h4 class="shares">0 Lượt chia sẻ</h4>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="genz-news">
+                    <img src="assets/img/cô giáo genz.jpg" alt="" >
+                    <div class="genz-news-content">
+
+                        <h2 class="genz-news-title">Gen Z làm cô giáo: Mỗi ngày một kiểu trang phục</h2>
+                        <div class="genz-news-text-and-icon">
+                            <p class="genz-news-text">Mới đây, những đoạn clip về trang phục đi dạy của
+                                một giáo viên
+                                tiểu học khi cả tuần không mặc trùng bộ nào đang gây sốt trên mạng xã hội.
+
+                            </p>
+                            <div class="genz-news-footer"></div>
+                            <div class="genz-news-footer">
+                                <i class="ti-comments"></i>
+                                <i class="ti-share"></i>
+                                <h4 class="shares">0 Lượt chia sẻ</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="genz-news-big-img">
+
+                    <img src="assets/img/mono.jpg" alt="">
+                    <div class="genz-news-content">
+
+                        <h2 class="genz-news-title">Mono tổ chức 'đám cưới' cực chill tại biển Quy Nhơn
+                        </h2>
+                        <div class="genz-news-text-and-icon">
+                            <p class="genz-news-text">Netizen có dịp cười nghiêng ngả và giải tỏa mọi căng
+                                thẳng khi
+                                chứng kiến đám cưới có 1-0-2 của Mono và Tùng Cedrus trong không khí cực
+                                chill tại bãi
+                                biển Quy Nhơn.</p>
+                            <div class="genz-news-footer">
+                                <i class="ti-comments"></i>
+                                <i class="ti-share"></i>
+                                <h4 class="shares">0 Lượt chia sẻ</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="genz-news">
+                    <img src="assets/img/genz diều cần biết.jpg" alt="" >
+                    <div class="genz-news-content">
+
+                        <h2 class="genz-news-title">Đừng vội dán nhãn Gen Z nếu bạn chưa biết những điều
+                            này</h2>
+                        <div class="genz-news-text-and-icon">
+                            <p class="genz-news-text">Tỏa tri thức, bừng khí chất là cách mà Gen Z vượt
+                                qua định kiến,
+                                khiến những bậc hàng xóm "nhìn cháu lớn lên từ ngày còn trong tã" phải bất
+                                ngờ, khen
+                                hay.
+                            </p>
+                            <div class="genz-news-footer">
+
+                                <i class="ti-comments"></i>
+                                <i class="ti-share"></i>
+                                <h4 class="shares">0 Lượt chia sẻ</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="genz-news">
+                    <img src="assets/img/nờ ô nô.jpg" alt="" >
+                    <div class="genz-news-content">
+
+                        <h2 class="genz-news-title">TikToker Nờ Ô Nô bị dân mạng tẩy chay vì miệt thị người
+                            nghèo
+                        </h2>
+                        <div class="genz-news-text-and-icon">
+                            <p class="genz-news-text">Hiện tại TikToker Nờ Ô Nô là cái tên được cư dân
+                                mạng đồng lòng
+                                kêu gọi tẩy chay vì đăng tải loạt clip làm từ thiện theo phong cách cục súc,
+                                miệt thị
+                                người nghèo.
+                            </p>
+                            <div class="genz-news-footer">
+
+                                <i class="ti-comments"></i>
+                                <i class="ti-share"></i>
+                                <h4 class="shares">0 Lượt chia sẻ</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div id="right-content">
+                <div class="right-content-news">
+                    <div class="right-content-topic">
+                        <span>Genz</span>
+                    </div>
+
+                    <img src="assets/img/genz là gì.jpg" width="300px" alt="">
+                    <h5 class="right-content-title">
+                        Thế hệ GenZ là gì?
+                    </h5>
+
+                    <img src="assets/img/genz diều cần biết.jpg" width="300px" alt="">
+                    <h5 class="right-content-title">
+                        Đừng vội dán nhãn Gen Z nếu bạn chưa biết những điều này
+                    </h5>
+                </div>
+
+                <div class="right-content-news">
+                    <div class="right-content-topic">
+                        <span>ShowBiz</span>
+                    </div>
+                    <img src="assets/img/DieuNhi-AnhTu.jpg" width="300px" alt="">
+                    <h5 class="right-content-title">DIỆU NHI, ANH TÚ Đăng Ký Kết Hôn: Người Trẻ Có Thêm Niềm Tin Vào
+                        Tình Yêu.</h5>
+
+                    <img src="assets/img/blackpink.jpg" width="300px" alt="">
+                    <h5 class="right-content-title">LISA (BlackPink) Gặp Chấn Thương Trong Tour 'Born Pink'</h5>
+                </div>
+                <div class="right-content-news">
+                    <div class="right-content-topic">
+                        <span>Xã hội</span>
+                    </div>
+                    <img src="assets/img/le-gio-to-hung-vuong.jpg" width="300px" alt="">
+                    <h5 class="right-content-title">Giỗ Tổ Hùng Vương - Lễ hội Đền Hùng: Giá trị văn hóa của người
+                        Việt
+                    </h5>
+
+                    <img src="assets/img/ao-dai.jpg" width="300px" alt="">
+                    <h5 class="right-content-title">Áo dài Việt Nam - trang phục truyền thống niềm tự hào dân tộc
+                        Việt
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Show-biz -->
+     <div id="total">
+        <div class="show-biz">
+            <div class="title">
+                <a href="#">
+                    <p>Showbiz</p>
+                </a>
+            </div>
+            <div class="content-showbiz">
+                <div class="small-columns" id="left-showbiz">
+                    <article>
+                        <figure>
+                            <img src="./assets/img/DieuNhi-AnhTu.jpg" alt="anh-DieuNhi-AnhTu">
+                        </figure>
+                        <a href="./assets/news/show-biz-p1.html">
+                            <p> <em>DIỆU NHI, ANH TÚ</em> Đăng Ký Kết Hôn: Người Trẻ Có Thêm Niềm Tin Vào <em>Tình
+                                    Yêu</em>.
+                            </p>
+                        </a>
+
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="./assets/img/karik.jpg" alt="anh-karik">
+                        </figure>
+                        <a href="./assets/news/show-biz-p2.html">
+                            <p><em>Rapper KARIK</em> Tham Gia Lồng Tiếng Bom Tấn 'Avatar: The Way Of Water'
+                            </p>
+                        </a>
+                    </article>
+                </div>
+                <div class="big-columns">
+                    <article>
+                        <figure>
+                            <img src="./assets/img/blackpink.jpg" alt="">
+                            <a href="./assets/news/show-biz-p3.html">
+                                <p><em>LISA</em> (BlackPink) Gặp Chấn Thương Trong Tour 'Born Pink'</p>
+                            </a>
+                        </figure>
+                    </article>
+                </div>
+
+                <div class="small-columns" id="right-showbiz">
+                    <article>
+                        <figure>
+                            <img src="./assets/img/wednesday.jpg" alt="">
+                        </figure>
+                        <a href="./assets/news/show-biz-p4.html">
+                            <p>Nữ Diễn Viên Đóng 'Chị Tư' <em>WEDNESDAY</em> Đang Gây Sốt Là Ai?
+
+                            </p>
+                        </a>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="./assets/img/do-nhat-ha.jpg" alt="anh-do-nhat-ha">
+                        </figure>
+                        <a href="./assets/news/show-biz-p5.html">
+                            <p><em>NGƯỜI ĐẸP</em> Chuyển Giới Gây Chú Ý Tại 'Gương Mặt Truyền Hình'
+                            </p>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ket thuc phan showbiz -->
+    <!-- Phan 3 van hoa -->
+     <div id="culture" class="culture--slider">
+
+        <div class="culture--title">
+            <h2><em>Văn</em> Hóa</h2>
+        </div>
+
+        <section class="culture--content">
+
+            <div class="culture--cards">
+                <div class="culture--img">
+                    <img src="./assets/img/mam-com-Tet.png" alt="Ẩm thực ngày Tết">
+                </div>
+
+                <div class="culture--date"><i class="fa fa-clock-o" aria-hidden="true">25/11/2022</i></div>
+
+                <h3><a href="./assets/news/page-2.html">Khám phá văn hóa ẩm thực ngày Tết 3 miền Bắc-Trung-Nam</a></h3>
+
+                <p>Theo phong tục chung, Tết của người Việt Nam nhất thiết phải có mâm cỗ với các món ăn đặc biệt mà
+                    ngày thường ít có.
+                    Mâm cỗ phải thịnh soạn, hấp dẫn với đầy đủ màu sắc, như: màu xanh của bánh chưng, màu đỏ tươi của
+                    xôi gấc,
+                    canh măng vàng, đĩa giò lụa hồng hồng… để tạo nên mâm cỗ cổ truyền đậm đà bản sắc Việt.</p>
+
+                <a href="./assets/news/page-2.html" class="read-more">
+                    Đọc thêm
+                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                </a>
+            </div>
+
+            <div class="culture--cards">
+                <div class="culture--img">
+                    <img src="./assets/img/20-11.jpg" alt="Nhà giáo Việt Nam 20/11">
+                </div>
+
+                <div class="culture--date"><i class="fa fa-clock-o" aria-hidden="true">20/11/2022</i></div>
+                <h3> <a href="./assets/news/page-3.html">
+                        Nguồn gốc, ý nghĩa của Ngày Nhà giáo Việt Nam 20/11
+                    </a></h3>
+                <p>Đây là ngày lễ nhằm tri ân những nhà giáo, những tấm gương hoạt động giáo dục có đóng góp cho ngành
+                    giáo dục Việt Nam.
+                    Và vào ngày này, các thế hệ học trò cũng như các ngành nghề khác đều dành thời gian để nhìn lại
+                    và tri ân các cống hiến thầm lặng của những thầy cô của họ.</p>
+                <a href="./assets/news/page-3.html" class="read-more">
+                    Đọc thêm
+                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                </a>
+            </div>
+
+            <div class="culture--cards">
+                <div class="culture--img">
+                    <img src="./assets/img/hoi-an-tren-cao.jpg" alt="Phố Cổ Hội An">
+                </div>
+
+                <div class="culture--date"><i class="fa fa-clock-o" aria-hidden="true">27/09/2022</i></div>
+                <h3><a href="./assets/news/page-5.html">
+                        Phố Cổ Hội An - Thành phố cổ đẹp hàng đầu Châu Á
+                    </a>
+                </h3>
+                <p>Phố cổ Hội An là một thành phố nổi tiếng của tỉnh Quảng Nam, một phố cổ giữ được gần như nguyên vẹn
+                    với hơn 1000 di tích kiến trúc từ phố xá, nhà cửa,
+                    hội quán, đình, chùa, miếu, nhà thờ tộc, giếng cổ… đến các món ăn truyền thống,
+                    tâm hồn của người dân nơi đây. Một lần du lịch Hội An sẽ làm say đắm lòng du khách bởi những nét đẹp
+                    trường tồn cùng thời gian, vô cùng mộc mạc, bình dị.</p>
+                <a href="./assets/news/page-5.html" class="read-more">
+                    Đọc thêm
+                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                </a>
+            </div> 
+
+             <div class="culture--cards">
+                <div class="culture--img">
+                    <img src="./assets/img/ao-dai.jpg" alt="Áo dài Việt Nam">
+                </div>
+
+                <div class="culture--date"><i class="fa fa-clock-o" aria-hidden="true">9/07/2022</i></div>
+                <h3><a href="./assets/news/page-6.html">
+                        Áo dài Việt Nam - trang phục truyền thống niềm tự hào dân tộc Việt
+                    </a> </h3>
+                <p>Áo dài được xem là biểu tượng văn hóa gắn liền với hình ảnh người phụ nữ Việt Nam.
+                    Trải qua nhiều thời gian thăng trầm và phát triển, chiếc áo dài Việt Nam không ngừng thay đổi nhưng
+                    vẫn giữ được nét truyền thống.
+                    Khơi dậy niềm tự hào và góp phần tôn lên vẻ đẹp thanh lịch, dịu dàng của người phụ nữ Việt. </p>
+                <a href="./assets/news/page-6.html" class="read-more">
+                    Đọc thêm
+                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                </a>
+            </div> 
+
+
+            <div class="culture--cards">
+                <div class="culture--img">
+                    <img src="./assets/img/nghe-thuat-mua-roi-nuoc.jpg" alt="Múa rối nước">
+                </div>
+
+                <div class="culture--date"><i class="fa fa-clock-o" aria-hidden="true">29/05/2022</i></div>
+                <h3> <a href="./assets/news/page-4.html">
+                        Múa rối nước - nghệ thuật dân gian độc đáo của Việt Nam
+                    </a> </h3>
+                <p>Nghệ thuật múa rối nước là niềm tự hào văn hóa đã in sâu trong tiềm thức của người dân làng Rạch,
+                    tỉnh Nam Định.
+                    Từ "sân khấu" đặc biệt là những thủy đình chốn thôn quê, những nghệ nhân rối nước làng Rạch đã nỗ
+                    lực,
+                    không ngừng sáng tạo để mang rối nước đi khắp xa gần, và thu hút du khách về làng.</p>
+                <a href="./assets/news/page-4.html" class="read-more">
+                    Đọc thêm
+                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                </a>
+            </div>
+
+            <div class="culture--cards">
+                <div class="culture--img">
+                    <img src="./assets/img/le-gio-to-hung-vuong.jpg" alt="Lễ Giỗ Tổ Hùng Vương">
+                </div>
+
+                <div class="culture--date"><i class="fa fa-clock-o" aria-hidden="true">10/03/2022</i></div>
+
+                <h3> <a href="./assets/news/page-1.html">
+                        Giỗ Tổ Hùng Vương - Lễ hội Đền Hùng: Giá trị văn hóa của người Việt
+                    </a></h3>
+
+                <p>Từ ngàn đời nay, đối với mỗi người dân nước Việt, Giỗ Tổ Hùng Vương - Lễ hội Đền Hùng đã trở thành
+                    một biểu tượng tinh thần,
+                    mang bản sắc văn hóa độc đáo, kết thành ý thức nguồn cội,
+                    nghĩa đồng bào và trở thành yếu tố nội lực tạo nên sức mạnh đại đoàn kết của dân tộc Việt Nam.</p>
+
+                <a href="./assets/news/page-1.html" class="read-more">
+                    Đọc thêm
+                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                </a>
+            </div>
+
+        </section>
+
+    </div> 
+    <!-- Ket thuc phan 3 -->
+
+    <!-- FOOTER -->
+    <div id="box1">
+        <div id="wrapper">
+            <form action="">
+                <h3>ĐĂNG NHẬP</h3>
+                <div class="input-group">
+                    <input type="text" name="email" required>
+                    <label for="Email">Email</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" name="password" required>
+                    <label for="Email">Mật khẩu</label>
+                </div>
+                <input class="button_login" type="submit" value="Đăng Nhập Ngay">
+
+                <div class="login-signup">
+                    <span class="text">Bạn không là thành viên?
+                        <a href="#" class="text signup-link">Đăng ký ngay</a>
+                    </span>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="box2">
+        <div class="dec1">
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Liên hệ</a></li>
+                <li><a href="#">Nâng cao</a></li>
+                <li><a href="#">Cộng tác viên</a></li>
+            </ul>
+        </div>
+        <div class="dec2">
+            <div class="group">
+                <H3>BÁO ĐIỆN TỬ</H3>
+                <p class="content">Bản thân khách hàng là rất quan trọng, và thông tin chính xác là ưu tiên. Hãy sống
+                    trước thời đại</p>
+                <p class="small">FOLLOW CHÚNG TÔI</p>
+                <p class="icon">
+                    <a class="facebook" href=""><i class="fa-brands fa-square-facebook"></i></a>
+                    <a class="twitter" href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    <a class="instagram" href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a class="discord" href=""><i class="fa-brands fa-discord"></i></i></a>
+                    <a class="linkedin" href=""><i class="fa-brands fa-linkedin"></i></a>
+                </p>
+            </div>
+        </div>
+        <div class="dec3">
+            <a href=""><img src="./assets/img/LOGO khoa cntt.png" alt=""></a>
+        </div>
+    </div>
+
+    <div class="box3">
+        <div class="footer">
+            <ul class="menu">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">LIÊN HỆ-ĐƠN GIẢN</a></li>
+                <li><a href="#">LIÊN HỆ-NÂNG CAO</a></li>
+                <li><a href="#">CỘNG TÁC VIÊN</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="backtop">
+        <i class="fa-solid fa-chevron-up"></i>
+    </div>
+
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="./assets/index.js"></script>
+
+<script>
+    // header
+    // mục yêu thích
+    const buttonlike =   document.querySelector('.js-like')
+    const modal =   document.querySelector('.modal')
+    const modalclose =   document.querySelector('.modal-close')
+
+        function show(){
+            modal.classList.add('open')
+        }
+        function hide(){
+            modal.classList.remove('open')
+        }
+        buttonlike.addEventListener('click',show)
+        modalclose.addEventListener('click',hide)
+
+    // các tiện ích
+    const buttonstats =   document.querySelector('.js-stats')
+    const stats =   document.querySelector('.modal-stats')
+    const closestats =   document.querySelector('.close')
+        function showstats(){
+            stats.classList.add('open')
+        }
+        function hidestats(){
+            stats.classList.remove('open')
+        }
+        buttonstats.addEventListener('click',showstats)
+        closestats.addEventListener('click',hidestats)
+
+    const buttonbookmark =   document.querySelector('.js-bookmark')
+    const bookmark =   document.querySelector('.modal-bookmark')
+    const closebookmark =   document.querySelector('.close-bookmark')
+        function showsbookmark(){
+            bookmark.classList.add('open')
+        }
+        function hidebookmark(){
+            bookmark.classList.remove('open')
+        }
+        buttonbookmark.addEventListener('click',showsbookmark)
+        closebookmark.addEventListener('click',hidebookmark)
+    
+    const buttoncredit =   document.querySelector('.js-credit')
+    const credit =   document.querySelector('.modal-credit')
+    const closecredit =   document.querySelector('.close-credit')
+        function showscredit(){
+            credit.classList.add('open')
+        }
+        function hidecredit(){
+            credit.classList.remove('open')
+        }
+        buttoncredit.addEventListener('click',showscredit)
+        closecredit.addEventListener('click',hidecredit)
+
+    const buttonyoutube =   document.querySelector('.js-youtube')
+    const youtube =   document.querySelector('.modal-youtube')
+    const closeyoutube =   document.querySelector('.close-youtube')
+        function showsyoutube(){
+            youtube.classList.add('open')
+        }
+        function hideyoutube(){
+            youtube.classList.remove('open')
+        }
+        buttonyoutube.addEventListener('click',showsyoutube)
+        closeyoutube.addEventListener('click',hideyoutube)
+        
+    const buttonmore =   document.querySelector('.js-more')
+    const more =   document.querySelector('.modal-more')
+    const closemore =   document.querySelector('.close-more')
+        function showsmore(){
+            more.classList.add('open')
+        }
+        function hidemore(){
+            more.classList.remove('open')
+        }
+        buttonmore.addEventListener('click',showsmore)
+        closemore.addEventListener('click',hidemore)
+
+</script>
+<script>
+    $(document).ready(function () {
+        $('#backTop').click(function () {
+            $('html, body').animate({
+                scrollTop: 0
+            }, 500);
+
+        });
+    });
+
+    $(function () {
+
+        $('.image').click(function () {
+
+            $('.dangNhap').slideToggle(400);
+
+        });
+
+        $('.like').click(function () {
+
+            $('.danhSach').slideToggle(400);
+
+        });
+
+    });
+
+    
+</script> 
+ <script>
+    // FOOTER
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            // khoảng cách giữa màng hình và đầu lề bằng 0
+            if ($(this).scrollTop()) {
+                // ẩn nút
+                $('#backtop').fadeIn();
+            } else {
+                $('#backtop').fadeOut();
+            }
+        });
+        $('#backtop').click(function () {
+            $('html, body').animate({ scrollTop: 0 }, 500);
+        });
+    });
+</script>  
+
+</html>

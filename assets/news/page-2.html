@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ẩm thực ngày Tết</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,500;1,600&display=swap" rel="stylesheet">
+ 
+
+</head>
+<body>
+        <div class="news--culture">
+    <!-- Back to homepage -->
+    <div class="back">
+    <a href="../../index.html" ><i class="fas fa-chevron-left"></i> Trở về trang chủ  </a>
+    </div>
+    
+    <h2 class="news--first_title">Khám phá văn hóa ẩm thực ngày Tết 3 miền Bắc-Trung-Nam</h2>
+    <div class="news--culture_img">
+    <img src="../img/mam-com-Tet.png" alt="Ẩm thực ngày Tết">
+    </div>
+  
+    <section class="news--culture_content ">
+        <p class="news--sub_heading">Theo phong tục chung, Tết của người Việt Nam nhất thiết phải có mâm cỗ
+             với các món ăn đặc biệt mà ngày thường ít có. Mâm cỗ phải thịnh soạn, 
+             hấp dẫn với đầy đủ màu sắc, như: màu xanh của bánh chưng, màu đỏ tươi của xôi gấc, canh măng vàng, 
+            đĩa giò lụa hồng hồng… để tạo nên mâm cỗ cổ truyền đậm đà bản sắc Việt.</p>
+    
+    <p class="news--text">
+        Xuất phát từ những yếu tố ngoại cảnh như địa lý, khí hậu, văn hóa khác nhau, 
+        mỗi vùng lại có những biến tấu món ăn khác nhau,
+         tuy không quá cao sang về nguyên liệu, nhưng lại rất đặc trưng, riêng biệt và hấp dẫn.
+    </p>
+    
+    <p class="news--text">Ngày Tết miền Bắc, thời tiết thường giá lạnh, có lẽ vì vậy mà người miền Bắc dường như nuông chiều bản thân hơn với các món ăn ngậy béo và đầy năng lượng.
+         Đặc biệt, là vùng đất mà nhiều đời vua chúa từng chọn làm nơi đóng đô, mâm cỗ Tết của người miền Bắc bao giờ cũng thể hiện sự tinh tế và khéo léo. 
+         Vừa chú trọng hình thức, vừa phối hợp hài hòa giữa những món nước và món khô, giữa thịt và rau. Trong đó, mâm cỗ của người Hà Nội được đánh giá là bài bản và giữ được nét cổ truyền của người Việt.</p>
+    
+    <p class="news--text">Người miền Trung cũng cầu kỳ, tỉ mỉ nên các món ăn ngày Tết cũng được chăm chút kỹ lưỡng. 
+        Ngắm nhìn và thưởng thức mâm cỗ ngày Tết của người miền Trung, dường như cảm nhận thấy trong đó cả âm hưởng của sự chắt chiu, chia sẻ.
+         Người miền Trung không có bánh chưng mà làm bánh Tết, món bánh có hương vị rất gần gũi với bánh chưng.</p>
+    
+    <p class="news--text">Nam Bộ nổi tiếng là vùng đất bình dị với những con người chất phác, xởi lởi, lại thêm những sản vật tự nhiên rất phong phú, 
+        không cần chế biến cầu kỳ vẫn khiến vị giác đắm say. 
+        Có lẽ bởi vậy, văn hóa ẩm thực ngày thường cũng như ngày Tết của miền Nam thường đơn giản hơn so với miền Bắc và miền Trung. Bánh Tết,
+         thịt kho tàu và canh khổ qua là 3 món đặc trưng trong ngày Tết của vùng Nam Bộ.</p>
+    
+    </section>
+    <div class="emotion">
+        <span class="news--emotion_title">Bạn thấy bài viết này như thế nào</span>
+        <div>
+        <i class="far fa-frown"></i>
+        <i class="far fa-meh"></i>
+        <i class="far fa-laugh-squint"></i>
+    </div>
+    </div>
+    <!-- news--share icons -->
+    <div class="news--share">
+        <span class="news--share_title">Chia sẻ bài viết này với bạn</span>
+       <div class="icons--news_share">
+        <i class="fab fa-telegram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-facebook-square"></i>
+    </div>
+    </div>
+    </div> 
+    <!-- Back to top -->   
+<div class="back--top">
+    <i class="fas fa-chevron-up"></i>
+</div>   
+</body>
+<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+<script>
+  var offset= 500;
+  var duration = 750;  
+    $(document). ready(function() {
+        $(window).scroll(function() {
+            if($(this).scrollTop() > offset) {
+                $('.back--top').fadeIn(duration);
+            }
+            else {
+                $('.back--top').fadeOut(duration);
+            }
+        });
+        $('.back--top').click(function() { 
+            $('html, body').animate({scrollTop: 0}, duration);
+        });
+    });
+    </script>
+</html>
