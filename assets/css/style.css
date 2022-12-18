@@ -1345,7 +1345,7 @@ width: 100%; */
     align-items: center;
     justify-content: center;
     border: 6px dashed #DCDCDC;
-    width: 85%;
+    width: 80%;
     text-align: center;
     margin-top: 30px;
 
@@ -1354,7 +1354,7 @@ width: 100%; */
 .show-biz>.title {
     width: 100%;
     height: 10%;
-    padding: 20px;
+    padding: 10px;
     text-transform: uppercase;
 }
 
@@ -1372,12 +1372,12 @@ width: 100%; */
 
 .title p {
     font-family: 'Playfair Display', serif;
-    font-size: 44px;
+    font-size: 40px;
     font-weight: 900;
 }
 
 .title p:hover {
-    font-size: 48px;
+    font-size: 44px;
     color: #FF3333;
 }
 
@@ -1396,8 +1396,8 @@ width: 100%; */
 }
 
 .small-columns {
-    width: 30%;
-    padding: 20px;
+    width: 25%;
+    padding: 15px;
 }
 
 .small-columns img {
@@ -1409,7 +1409,7 @@ width: 100%; */
 .small-columns a {
     text-decoration-line: none;
     width: 220px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .small-columns a:hover {
@@ -1419,7 +1419,8 @@ width: 100%; */
 
 .small-columns p {
     font-family: 'Playfair Display', serif;
-    font-size: 36px;
+    font-size: 20px;
+    font-weight: 500;
     color: #3f86a3;
 }
 
@@ -1429,9 +1430,9 @@ width: 100%; */
 }
 
 .big-columns {
-    width: 40%;
+    width: 50%;
     float: left;
-    padding: 20px;
+    padding: 15px;
     display: flex;
     align-items: center;
 }
@@ -1445,12 +1446,13 @@ width: 100%; */
 .big-columns a {
     text-decoration-line: none;
     width: 300px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .big-columns p {
     font-family: 'Playfair Display', serif;
-    font-size: 36px;
+    font-size: 24px;
+    font-weight: 500;
     color: #3f86a3;
 }
 
@@ -1467,138 +1469,138 @@ width: 100%; */
 
 @media only screen and (min-width:1200px) and (max-width:1300px) {
     .show-biz {
-        width: 85%;
+        width: 80%;
         border: 8px dashed #DCDCDC;
     }
 
     .show-biz .title {
-        padding: 10px;
+        padding: 8px;
     }
 
     .title a {
-        font-size: 42px;
+        font-size: 38px;
     }
 
     .title a:hover {
-        font-size: 46px;
-    }
-
-    .title p {
         font-size: 42px;
     }
 
+    .title p {
+        font-size: 38px;
+    }
+
     .title p:hover {
-        font-size: 46px;
+        font-size: 42px;
     }
 
     .small-columns {
-        width: 30%;
-        padding: 12px;
+        width: 27%;
+        padding: 10px;
     }
 
     .big-columns {
-        padding: 12px;
-        width: 40%;
+        padding: 10px;
+        width: 46%;
     }
 
     .small-columns p {
-        font-size: 32px;
+        font-size: 18px;
     }
 
     .big-columns p {
-        font-size: 32px;
+        font-size: 22px;
     }
 
 }
 
 @media only screen and (min-width:1024px) and (max-width:1200px) {
     .show-biz {
-        width: 85%;
+        width: 80%;
         border: 7px dashed #DCDCDC;
     }
 
     .show-biz .title {
-        padding: 15px;
+        padding: 8px;
     }
 
     .title a {
-        font-size: 38px;
+        font-size: 34px;
     }
 
     .title a:hover {
-        font-size: 42px;
-    }
-
-    .title p {
         font-size: 38px;
     }
 
+    .title p {
+        font-size: 34px;
+    }
+
     .title p:hover {
-        font-size: 42px;
+        font-size: 38px;
     }
 
     .small-columns {
-        width: 30%;
-        padding: 10px;
+        width: 28%;
+        padding: 8px;
     }
 
     .big-columns {
-        padding: 10px;
-        width: 40%;
+        padding: 8px;
+        width: 44%;
     }
 
     .small-columns p {
-        font-size: 28px;
+        font-size: 18px;
     }
 
     .big-columns p {
-        font-size: 28px;
+        font-size: 20px;
     }
 }
 
 /* Tablet: width >= 740px and width < 1024px */
 @media only screen and (max-width:1023px) {
     .show-biz {
-        width: 85%;
+        width: 80%;
         border: 6px dashed #DCDCDC;
     }
 
     .show-biz .title {
-        padding: 14px;
+        padding: 7px;
     }
 
     .title a {
-        font-size: 36px;
+        font-size: 32px;
     }
 
     .title a:hover {
-        font-size: 38px;
+        font-size: 34px;
     }
 
     .title p {
-        font-size: 36px;
+        font-size: 32px;
     }
 
     .title p:hover {
-        font-size: 38px;
+        font-size: 34px;
     }
 
     .small-columns {
-        width: 30%;
-        padding: 10px;
+        width: 29%;
+        padding: 6px;
     }
 
     .big-columns {
-        padding: 10px;
-        width: 40%;
+        padding: 6px;
+        width: 42%;
     }
 
     .small-columns p {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .big-columns p {
-        font-size: 24px;
+        font-size: 20px;
     }
 }
 
@@ -1631,7 +1633,7 @@ width: 100%; */
     }
 
     .show-biz .title {
-        padding: 10px;
+        padding: 6px;
         height: 2%;
     }
 
@@ -1654,11 +1656,11 @@ width: 100%; */
     }
 
     .small-columns p {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .big-columns p {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
